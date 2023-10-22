@@ -140,7 +140,7 @@ body.dark {
     text-align: center;
     font-size: 1.1rem;
     margin: 0 auto 35px auto;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .created-by span {
