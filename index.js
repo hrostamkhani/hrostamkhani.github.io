@@ -39,7 +39,7 @@ const updateTime = () => {
     let date = new Date(),
         secToDeg = (date.getSeconds() / 60) * 360,
         minToDeg = (date.getMinutes() / 60) * 360,
-        hrToDeg = (date.getHours() / 12 + date.getMinutes() / 600) * 360;
+        hrToDeg = (date.getHours() / 12 + date.getMinutes() / 700) * 360;
 
     let options = {hour: '2-digit', minute: '2-digit', second: '2-digit'};
     digitalClock.textContent = date.toLocaleTimeString('fa-IR', options);
